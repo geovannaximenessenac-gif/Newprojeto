@@ -6,14 +6,20 @@
     <title>Atividade 7</title>
 </head>
 <body>
- <h1>Carrinho de Compras</h1> 
- <form action=".//Atividade7js.html">
-    <button type="submit" onclick="return adicionar()"><img src="./img/carrinho-de-compras (1).png"></button>
- </form> 
- <script>
-    function adicionar(){
-        return window.confirm( "Você tem certeza que deseja adicionar este item ao carrinho?")
-    }
- </script> 
+    
+    <h1>Compras</h1>
+    <p>Deseja comprar? Este item</p>
+    <img src="./img/carrinho-de-compras (1).png" width="30" alt="Carrinho">
+    <table>
+        <ol>Bolsa</ol>
+        <ol>Brinco</ol>
+        <ol>Colar</ol>
+        <ol>Anel</ol>
+        <ol>Maquiageem</ol>
+        <ol>Perfume</ol>
+    </table>
+
+    <button onclick="return Comprar()">Comprar o itens</button>
+    <script src="./js/script.js"></script>
 </body>
 </html>
